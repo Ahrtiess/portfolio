@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dylan Manogil | Developer & Web Designer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;600&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="cursor"></div>
+
+    <div id="home-page" class="page active">
+        <nav>
+            <a href="#" class="logo"></a>
+            <ul class="nav-links">
+                <li><a href="#about" data-en="ABOUT" data-fr="À PROPOS">ABOUT</a></li>
+                <li><a href="#skills" data-en="SKILLS" data-fr="COMPÉTENCES">SKILLS</a></li>
+                <li><a href="#contact" data-en="CONTACT" data-fr="CONTACT">CONTACT</a></li>
+                <li><a href="#" id="lang-toggle" class="lang-switch">FR</a></li>
+            </ul>
+        </nav>
+
+        <section class="hero">
+            <div class="hero-content">
+                <div class="hero-label" data-en="MY NAME IS" data-fr="JE M'APPELLE">MY NAME IS</div>
+                <h1 class="hero-title">
+                    <span class="line"><span>Dylan</span></span>
+                    <span class="line"><span>Manogil</span></span>
+                    <span class="line"><span class="highlight" data-en="developer & web designer" data-fr="développeur & web designer">developer & web designer</span></span>
+                </h1>
+                <p class="hero-description" data-en="20 years old, self-taught developer forged on the job. I transform ideas into concrete and effective digital experiences." data-fr="20 ans, développeur autodidacte forgé sur le terrain. Je transforme les idées en expériences numériques concrètes et efficaces.">
+                    20 years old, self-taught developer forged on the job. I transform ideas into concrete and effective digital experiences.
+                </p>
+                <div class="hero-cta">
+                    <a href="#contact" class="btn btn-primary" data-en="CONTACT ME" data-fr="ME CONTACTER">CONTACT ME</a>
+                    <a href="#about" class="btn btn-secondary" data-en="LEARN MORE" data-fr="EN SAVOIR PLUS">LEARN MORE</a>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="scroll-line"></div>
+                <span data-en="SCROLL" data-fr="DÉFILER">SCROLL</span>
+            </div>
+        </section>
+
+        <section class="section" id="about">
+            <div class="section-header">
+                <span class="section-number">01</span>
+                <h2 class="section-title" data-en="About" data-fr="À propos">About</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p><strong>Dylan Manogil, 20 years old.</strong> No diploma, no traditional academic background, just a passion for coding and hundreds of hours spent learning by doing.</p>
+                    <br>
+                    <p><strong>100% Self-Taught.</strong> I learned through tutorials, personal projects, mistakes, and a lot of self-reflection. Practical experience before theory.</p>
+                    <br>
+                    <p>Today, I carry out projects for clients, transforming their ideas into <strong>reliable and effective technical solutions.</strong></p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <div class="stat-number">20</div>
+                        <div class="stat-label" data-en="YEARS OLD" data-fr="ANS">YEARS OLD</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label" data-en="SELF-TAUGHT" data-fr="AUTODIDACTE">SELF-TAUGHT</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">∞</div>
+                        <div class="stat-label" data-en="MOTIVATION" data-fr="MOTIVATION">MOTIVATION</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="skills">
+            <div class="section-header">
+                <span class="section-number">02</span>
+                <h2 class="section-title" data-en="Skills" data-fr="Compétences">Skills</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">⚡</div>
+                    <h3 class="skill-name">Frontend</h3>
+                    <p class="skill-desc" data-en="React, Vue.js, Next.js, TypeScript, Tailwind CSS, animations & micro-interactions" data-fr="React, Vue.js, Next.js, TypeScript, Tailwind CSS, animations & micro-interactions">React, Vue.js, Next.js, TypeScript, Tailwind CSS, animations & micro-interactions</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🔧</div>
+                    <h3 class="skill-name">Backend</h3>
+                    <p class="skill-desc" data-en="Node.js, Express, FastAPI, REST APIs, GraphQL, server architecture" data-fr="Node.js, Express, FastAPI, APIs REST, GraphQL, architecture serveur">Node.js, Express, FastAPI, REST APIs, GraphQL, server architecture</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🎨</div>
+                    <h3 class="skill-name">Web Design</h3>
+                    <p class="skill-desc" data-en="Figma, UI/UX design, prototyping, wireframing, responsive design, design systems" data-fr="Figma, design UI/UX, prototypage, wireframing, design responsive, systèmes de design">Figma, UI/UX design, prototyping, wireframing, responsive design, design systems</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🗄️</div>
+                    <h3 class="skill-name" data-en="Database" data-fr="Base de données">Database</h3>
+                    <p class="skill-desc" data-en="PostgreSQL, MongoDB, Redis, query optimization, data modeling" data-fr="PostgreSQL, MongoDB, Redis, optimisation des requêtes, modélisation de données">PostgreSQL, MongoDB, Redis, query optimization, data modeling</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🐍</div>
+                    <h3 class="skill-name">Python</h3>
+                    <p class="skill-desc" data-en="Scripts, automation, APIs, Django/Flask, data processing, bots" data-fr="Scripts, automatisation, APIs, Django/Flask, traitement de données, bots">Scripts, automation, APIs, Django/Flask, data processing, bots</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="projects">
+            <div class="section-header">
+                <span class="section-number">03</span>
+                <h2 class="section-title" data-en="Projects" data-fr="Projets">Projects</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="projects-container">
+                <article class="project">
+                    <div class="project-image">
+                        <img src="img/quenora.jpg" alt="Quenora Paysage Website" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="project-placeholder" style="display:none;">
+                            <span>PROJECT IMAGE</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="project-tag">HTML5</span>
+                            <span class="project-tag">CSS3</span>
+                            <span class="project-tag">VANILLA JS</span>
+                        </div>
+                        <h3 class="project-title">Quenora Paysage</h3>
+                        <p class="project-desc" data-en="Modern and elegant website for a landscaping company. Presentation of services, portfolio of achievements and contact form for quote requests." data-fr="Site web moderne et élégant pour une entreprise de paysagisme. Présentation des services, portfolio de réalisations et formulaire de contact pour les demandes de devis.">
+                            Modern and elegant website for a landscaping company. Presentation of services, portfolio of achievements and contact form for quote requests.
+                        </p>
+                        <a onclick="showProject('quenora')" class="project-link">
+                            <span data-en="VIEW PROJECT" data-fr="VOIR LE PROJET">VIEW PROJECT</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                            </svg>
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="section" id="contact">
+            <div class="section-header">
+                <span class="section-number">04</span>
+                <h2 class="section-title" data-en="Contact" data-fr="Contact">Contact</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="contact-content">
+                <h3 class="contact-title">
+                    <span data-en="Let's" data-fr="Construisons">Let's</span> 
+                    <span class="highlight" data-en="build" data-fr="ensemble">build</span> 
+                    <span data-en="together?" data-fr="?">together?</span>
+                </h3>
+                <p class="contact-text" data-en="A project? An idea? A collaboration? I'm available to discuss it." data-fr="Un projet ? Une idée ? Une collaboration ? Je suis disponible pour en discuter.">
+                    A project? An idea? A collaboration? I'm available to discuss it.
+                </p>
+                <a href="mailto:contact@dylanmanogil.com" class="contact-email">contact@dylanmanogil.com</a>
+                <div class="social-links">
+                    <a href="#" class="social-link">GITHUB</a>
+                    <a href="#" class="social-link">TWITTER</a>
+                    <a href="#" class="social-link">DISCORD</a>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p class="footer-text" data-en="© 2025 - All rights reserved" data-fr="© 2025 - Tous droits réservés">© 2025 - All rights reserved</p>
+            <p class="footer-text"><span data-en="Designed with" data-fr="Conçu avec">Designed with</span> <span>♥</span> <span data-en="and lots of coffee" data-fr="et beaucoup de café">and lots of coffee</span></p>
+        </footer>
+    </div>
+
+    <div id="quenora-page" class="page">
+        <nav>
+            <a onclick="showHome()" class="logo" style="cursor:pointer;" data-en="← Back" data-fr="← Retour">← Back</a>
+            <ul class="nav-links">
+                <li><a onclick="showHome()" style="cursor:pointer;" data-en="ABOUT" data-fr="À PROPOS">ABOUT</a></li>
+                <li><a onclick="showHome()" style="cursor:pointer;" data-en="SKILLS" data-fr="COMPÉTENCES">SKILLS</a></li>
+                <li><a onclick="showHome()" style="cursor:pointer;" data-en="PROJECTS" data-fr="PROJETS">PROJECTS</a></li>
+                <li><a onclick="showHome()" style="cursor:pointer;" data-en="CONTACT" data-fr="CONTACT">CONTACT</a></li>
+            </ul>
+        </nav>
+
+        <section class="project-hero">
+            <div class="project-hero-content">
+                <div class="project-breadcrumb">
+                    <span data-en="PROJECTS" data-fr="PROJETS">PROJECTS</span>
+                    <span>/</span>
+                    <span class="highlight">QUENORA PAYSAGE</span>
+                </div>
+                <h1 class="project-hero-title">Quenora Paysage</h1>
+                
+                <div class="project-meta">
+                    <div class="meta-item">
+                        <span class="meta-label" data-en="ROLE" data-fr="RÔLE">ROLE</span>
+                        <span class="meta-value" data-en="Developer & Web Designer" data-fr="Développeur & Web Designer">Developer & Web Designer</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label" data-en="YEAR" data-fr="ANNÉE">YEAR</span>
+                        <span class="meta-value">2025</span>
+                    </div>
+                </div>
+                
+                <div class="project-tags">
+                    <span class="project-tag">HTML5</span>
+                    <span class="project-tag">CSS3</span>
+                    <span class="project-tag">VANILLA JS</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="project-image-showcase">
+            <div class="showcase-image">
+                <div class="image-gallery">
+                    <img src="img/quenora-1.jpg" alt="Quenora Paysage Screenshot 1" class="gallery-img active">
+                    <img src="img/quenora-2.jpg" alt="Quenora Paysage Screenshot 2" class="gallery-img">
+                    <img src="img/quenora-3.jpg" alt="Quenora Paysage Screenshot 3" class="gallery-img">
+                    <img src="img/quenora-4.jpg" alt="Quenora Paysage Screenshot 4" class="gallery-img">
+                    <img src="img/quenora-5.jpg" alt="Quenora Paysage Screenshot 5" class="gallery-img">
+                    
+                    <div class="gallery-indicators">
+                        <span class="indicator active" onclick="goToImage(0)"></span>
+                        <span class="indicator" onclick="goToImage(1)"></span>
+                        <span class="indicator" onclick="goToImage(2)"></span>
+                        <span class="indicator" onclick="goToImage(3)"></span>
+                        <span class="indicator" onclick="goToImage(4)"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="project-content">
+            <div class="content-grid">
+                <aside class="content-sidebar">
+                    <div class="sidebar-section">
+                        <h3 class="sidebar-title" data-en="PROJECT LINKS" data-fr="LIENS DU PROJET">PROJECT LINKS</h3>
+                        <div class="sidebar-links">
+                            <a href="#" class="sidebar-link">
+                                <span data-en="Visit Website" data-fr="Voir le site">Visit Website</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </aside>
+
+                <main class="content-main">
+                    <div class="content-section">
+                        <h2 class="content-title" data-en="Overview" data-fr="Présentation">Overview</h2>
+                        <p class="content-text" data-en="Quenora Paysage — Professional showcase website. Creation of a modern showcase website for Quenora Paysage, a landscaping company. The project's objective was to highlight the services, expertise and visual identity of the company through a clear, elegant and accessible interface. The site was developed in HTML5, CSS3 and vanilla JavaScript, without framework, to ensure optimal performance, clean structure and total control of the code. It is fully responsive, adapts to all devices (computer, tablet, mobile) and offers smooth and intuitive navigation. Special attention was paid to design, content readability and user experience, while respecting web best practices and natural SEO." data-fr="Quenora Paysage — Site vitrine professionnel. Réalisation d'un site vitrine moderne pour Quenora Paysage, une entreprise de paysagisme. L'objectif du projet était de mettre en valeur les services, le savoir-faire et l'identité visuelle de l'entreprise à travers une interface claire, élégante et accessible. Le site a été développé en HTML5, CSS3 et JavaScript vanilla, sans framework, afin de garantir des performances optimales, une structure propre et une totale maîtrise du code. Il est entièrement responsive, s'adapte à tous les supports (ordinateur, tablette, mobile) et offre une navigation fluide et intuitive. Une attention particulière a été portée au design, à la lisibilité du contenu et à l'expérience utilisateur, tout en respectant les bonnes pratiques du web et du référencement naturel (SEO).">
+                            Quenora Paysage — Professional showcase website. Creation of a modern showcase website for Quenora Paysage, a landscaping company. The project's objective was to highlight the services, expertise and visual identity of the company through a clear, elegant and accessible interface. The site was developed in HTML5, CSS3 and vanilla JavaScript, without framework, to ensure optimal performance, clean structure and total control of the code. It is fully responsive, adapts to all devices (computer, tablet, mobile) and offers smooth and intuitive navigation. Special attention was paid to design, content readability and user experience, while respecting web best practices and natural SEO.
+                        </p>
+                    </div>
+                </main>
+            </div>
+        </section>
+
+        <footer>
+            <p class="footer-text" data-en="© 2025 - All rights reserved" data-fr="© 2025 - Tous droits réservés">© 2025 - All rights reserved</p>
+        </footer>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
